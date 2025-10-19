@@ -1,48 +1,14 @@
-int datatype
-int low cap : -2147483648
-int high cap : 2147483647
-overflow : -2147483648
-float x : 4.34 float y : 10
-hello
-hello world
-cin.ignore() is to be used AFTER using cin to take input and BEFORE using getline to take string input
-this is a new beginning
-char ch : A
-char ch++ : B
-able to manipulate the ascii value of char
-able to print char as int : 66
-char ch2 : h
-take input like this : h
+Array elements are: 1 2 3 4 5 
+Modified array elements are: 1 2 10 4 5 
+After input, first element is: 1
+Enter 5 elements for the array: Array elements after taking dynamic input: 1 2 3 4 5 arr2[4] is not initialized, so it may contain garbage value: 5
 
-checking the limits of various data types
-note that int and long have the same limits for my machine
---- int datatype ---
---- int datatype ---
-Min int value (INT_MIN): -2147483648
-Max int value (INT_MAX): 2147483647
-easier to remember as -10^9 to 10^9
-1000000000
-
---- long datatype ---
-Min long value (LONG_MIN): -2147483648
-Max long value (LONG_MAX): 2147483647
-easier to remember as -10^18 to 10^18
-
---- long long datatype ---
-Min long long value (LLONG_MIN): -9223372036854775808
-Max long long value (LLONG_MAX): 9223372036854775807
-
---- float datatype ---
-Min float value (FLT_MIN): 1e-38
-Max float value (FLT_MAX): 3e+38
-Precision value (FLT_DIG): 6
-
---- double datatype ---
-Min double value (DBL_MIN): 2e-308
-Max double value (DBL_MAX): 2e+308
-Precision value (DBL_DIG): 15
-sizeof(int) = 4 bytes, INT_MAX = 2147483647
-sizeof(long) = 4 bytes, LONG_MAX = 2147483647
-sizeof(long long) = 8 bytes, LLONG_MAX = 9223372036854775807
-sizeof(void*) = 8 bytes (pointer size)
-int32_t/ int64_t availability: sizeof(int32_t) = 4, sizeof(int64_t) = 8
+2D Array elements input: 2D Array elements are: 
+1 2 3 4 5 
+2 4 6 8 10 
+3 6 9 12 15 
+Float array elements are: 1.1 2.2 3.3 4.4 
+Enter 15 elements for the 2D array: 2D Array elements are: 
+4.1 8.1 12.1 16.1 20.1 
+5.1 10.1 15.1 20.1 25.1 
+6.1 12.1 18.1 24.1 30.1 
