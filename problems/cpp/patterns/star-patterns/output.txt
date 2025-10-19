@@ -1,0 +1,44 @@
+1. Block Rectangle : 
+*****
+*****
+*****
+*****
+*****
+
+2. Hollow Rectangle :
+*****
+*   *
+*   *
+*   *
+*****
+
+3. Block Right Triangle : 
+*
+**
+***
+****
+*****
+
+4. Hollow Right Triangle : 
+*
+**
+* *
+*  *
+*****
+
+5. Block Inverted Right Triangle :
+*****
+****
+***
+**
+*
+
+
+6. Hollow Inverted Right Triangle :
+*****
+*  *
+* *
+**
+*
+
+7. Block Reversed Right Triangle :
