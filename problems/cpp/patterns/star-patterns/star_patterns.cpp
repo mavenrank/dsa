@@ -98,9 +98,30 @@ void hollow_inverted_right_triangle(int n){
 }
 
 void block_reversed_right_trangle(int n){
-    for (int i=0;i<=n;i++){
-        for(int j=n-1;j>=0;j++){
-            
+    for (int i = 0; i < n; i++) {
+        for (int j = 0; j < n; j++) {
+            if (j < n - i - 1)
+                cout << " ";
+            else
+                cout << "*";
+        }
+        cout << endl;
+    }
+}
+
+void hollow_reversed_right_triangle(int n){
+    
+}
+void block_pyramid_non_isometric(int n){
+    for (int i=0;i<n;i++){
+        for(int j=0;j<n;j++){
+            if (j < n - i - 1)
+                cout << " ";
+            else
+                cout << "*";
+        }
+        for(int k=0;k<i;k++){
+            cout << "*";
         }
         cout << endl;
     }
@@ -140,7 +161,16 @@ int main(){
 
     cout << "7. Block Reversed Right Triangle :" << endl;
     block_reversed_right_trangle(num);
+    
+    cout << endl;
+    
+    cout << "8. Hollow Reversed Right Triangle :" << endl;
+    hollow_reversed_right_triangle(num);
 
+    cout << endl;
+
+    cout << "9. Block Pyramid non-isometric :" << endl;
+    block_pyramid_non_isometric(num);
 
 
 }
