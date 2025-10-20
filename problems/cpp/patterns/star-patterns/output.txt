@@ -1,0 +1,107 @@
+1. Block Rectangle : 
+*****
+*****
+*****
+*****
+*****
+
+2. Hollow Rectangle :
+*****
+*   *
+*   *
+*   *
+*****
+
+3. Block Right Triangle : 
+*
+**
+***
+****
+*****
+
+4. Hollow Right Triangle : 
+*
+**
+* *
+*  *
+*****
+
+5. Block Inverted Right Triangle :
+*****
+****
+***
+**
+*
+
+
+6. Hollow Inverted Right Triangle :
+*****
+*  *
+* *
+**
+*
+
+7. Block Reversed Right Triangle :
+    *
+   **
+  ***
+ ****
+*****
+
+8. Hollow Reversed Right Triangle :
+    *
+   **
+  * *
+ *  *
+*****
+
+9. Block Reversed Inverted Right Triangle : 
+*****
+ ****
+  ***
+   **
+    *
+
+10. Hollow Reversed Inverted Right Triangle : 
+*****
+ *  *
+  * *
+   **
+    *
+
+11. Block Pyramid non-isometric :
+    *
+   ***
+  *****
+ *******
+*********
+
+12. Hollow Pyramid non-isometric : 
+    *
+   * *
+  *   *
+ *     *
+*********
+
+13. Block Arrowhead facing Right : 
+*
+**
+***
+****
+*****
+****
+***
+**
+*
+
+14. Hollow Arrowhead facing Right : 
+*    
+**   
+* *  
+*  * 
+*   *
+*  * 
+* *  
+**   
+*    
+
