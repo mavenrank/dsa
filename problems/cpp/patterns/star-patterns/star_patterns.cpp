@@ -266,6 +266,66 @@ void hollow_arrowhead_facing_right(int n){
     }
 }
 
+void block_arrowhead_facing_left(int n){
+    for (int i=0;i<n*2-1;i++){
+        if (i<n){
+            for(int j=0;j<n;j++){
+                if(j>=n-i-1){
+                    cout << "*";
+                }
+                else{
+                    cout << " ";
+                }
+            }
+        }
+        else{
+            for (int k=n-1;k>=0;k--){
+                if(k<n-(i-n)-1){
+                    cout << "*";
+                }
+                else {
+                    cout << " ";
+                }
+            }
+        }
+        cout << endl;
+    }
+}
+
+void block_rhombus(int n){
+    for (int i=0;i<n*2-1;i++){
+        if (i<n){
+            for(int j=0;j<n;j++){
+                if(j>=n-i-1){
+                    cout << "*";
+                }
+                else{
+                    cout << " ";
+                }
+            }
+            for (int k=0;k<i;k++){
+                cout << "*";
+            }
+        }
+        else{
+            for(int l=0;l<n;l++){
+                if(l>i-n){
+                    cout << "*";
+                }
+                else{
+                    cout << " ";
+                }
+            }
+            for(int m=n-1-1;m>=0;m--){
+                if (m>i-n){
+                    cout << "*";
+                }
+            }
+        }
+        cout << endl;
+    }
+}
+
 int main(){
     int num = 5;
     cout << "1. Block Rectangle : " << endl;
@@ -335,7 +395,12 @@ int main(){
 
     cout << "14. Hollow Arrowhead facing Right : " << endl;
     hollow_arrowhead_facing_right(num);
-
+    
     cout << endl;
+    
+    cout << "15. Block Arrowhead facing Left : " << endl;
+    block_arrowhead_facing_left(num);
 
+    cout << "17. Block Rhombus : " << endl;
+    block_rhombus(num);
 }
